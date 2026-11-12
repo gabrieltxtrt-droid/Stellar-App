@@ -1,0 +1,21 @@
+STELLAR 7.0 — PACOTE PWA
+
+Arquivos:
+- index.html: aplicativo Stellar 7.0
+- manifest.webmanifest: identificação e configuração instalável
+- sw.js: cache do aplicativo e recursos offline
+- icons/: ícones 192 e 512 px
+
+INSTALAÇÃO NO ANDROID
+1. Publique todo o conteúdo desta pasta em um endereço HTTPS.
+2. Abra o endereço no Chrome do Android.
+3. Use “Instalar app” ou menu ⋮ > Instalar app/Adicionar à tela inicial.
+
+IMPORTANTE SOBRE CHATGPT
+O botão “Abrir ChatGPT” abre o site oficial em outra aba. Não existe integração gratuita oficial que use a assinatura do ChatGPT como API dentro do Stellar. A API tem cobrança separada da assinatura ChatGPT. A Nova continua local.
+
+DADOS
+Ao mudar do arquivo file:// para um domínio HTTPS, o armazenamento local pode ser tratado como uma origem diferente. Exporte o backup financeiro do Stellar antes de migrar e importe-o depois de abrir a versão hospedada.
+
+OFFLINE
+O shell do app e recursos externos carregados com sucesso são armazenados em cache. Primeiro acesso exige internet. Recursos de CDN podem não estar disponíveis offline se nunca tiverem sido carregados.
